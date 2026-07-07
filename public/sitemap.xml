@@ -1,14 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://hub2hop.com/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-<url><loc>https://hub2hop.com/skachat-happ/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://hub2hop.com/podpiska/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://hub2hop.com/konfigi/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://hub2hop.com/podklyuchenie/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://hub2hop.com/pk/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://hub2hop.com/android/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://hub2hop.com/ios/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://hub2hop.com/tv/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://hub2hop.com/problemy/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://hub2hop.com/faq/</loc><lastmod>2026-06-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://hub2hop.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
 </urlset>
