@@ -16,7 +16,7 @@
 html{scroll-behavior:smooth;background:var(--bg);-webkit-text-size-adjust:100%}
 body{font-family:var(--sans);color:var(--ink);background:var(--bg);
   line-height:1.65;font-size:16px;font-weight:400;
-  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;padding-top:70px}
 img,svg{max-width:100%;display:block}
 a{color:var(--indigo-2);text-decoration:none;transition:color .15s}
 a:hover{color:var(--indigo-3)}
@@ -28,7 +28,7 @@ a:hover{color:var(--indigo-3)}
    iOS Safari backdrop-filter is unreliable and a transform on the sticky
    element itself breaks pinning — both made the mobile header bleed through
    and read as "not fixed". Solid bg is the network standard. */
-.nav{position:-webkit-sticky;position:sticky;top:0;z-index:1000;background:var(--bg);
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--bg);
   border-bottom:1px solid var(--line-soft)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;
   max-width:var(--max);margin:0 auto;padding:14px 24px;gap:20px}
@@ -53,7 +53,7 @@ a:hover{color:var(--indigo-3)}
   border-radius:8px;padding:8px;color:var(--ink);cursor:pointer}
 
 /* mobile drawer */
-.drawer{position:fixed;inset:64px 0 0;background:var(--bg-soft);z-index:99;
+.drawer{position:fixed;inset:70px 0 0;background:var(--bg-soft);z-index:99;
   padding:24px;display:none;flex-direction:column;gap:6px;overflow-y:auto;
   border-top:1px solid var(--line-soft)}
 .drawer.open{display:flex}
